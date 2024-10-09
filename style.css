@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+     display: flex;
+    align-items: center;  /* Aligne l'image et le texte au centre verticalement */
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+#contact p {
+    margin: 5px 0;
+}
+
+#profile-pic {
+    width: 150px;  /* Taille de l'image */
+    height: 150px;
+    border-radius: 50%;  /* Image ronde */
+    margin-right: 20px;  /* Espace entre l'image et le texte */
+    transform: scale(0.8);  /* Taille réduite au départ */
+    transition: transform 0.5s ease;  /* Animation de transformation */
+}
+header div {
+    display: flex;
+    flex-direction: column;  /* Aligne le nom et la description verticalement */
+}
